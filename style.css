@@ -7,15 +7,20 @@
     color: white;
 }
 
-#top{
+.top{
     width: 100%;
     height: 40px;
     text-align: center;
 }
 
-#top img{
+.top img{
     margin: auto;
     height: 45px;
+}
+
+.linktomenu a img{
+    margin: auto;
+    height: 50px;
 }
 
 .banner{
@@ -62,8 +67,17 @@ footer img{
     margin: auto;
 }
 
+.bs .ingrediences h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /*colors*/
 
 .liit h1{
     color: orange;
+}
+
+.cm h3{
+    color: red;
 }
