@@ -24,16 +24,29 @@
 }
 
 .banner{
-    width: 100%;
     margin-top: 5px;
+    text-align: center;
 }
 
 .banner img{
     width: 100vw;
+    max-width: 800px;
+    margin: auto;
 }
 
 #menu{
     align-items: center;
+}
+
+.categories{
+    width: 800px;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.categories img{
+    margin-top: 40px;
+    margin-bottom: -45px;
 }
 
 .cocktail{
@@ -67,17 +80,29 @@ footer img{
     margin: auto;
 }
 
-.bs .ingrediences h2{
+.bs .ingrediences h2,
+.h .ingrediences h2{
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-/*colors*/
-
-.liit h1{
-    color: orange;
+.zitat-der-woche{
+    text-align: center;
+    margin-top: 50px;
 }
+
+.zitat-der-woche img{
+    margin: auto;
+    width: 800px;
+    max-width: 100vw;
+}
+
+/*colors*/
 
 .cm h3{
     color: red;
+}
+
+.banger h1{
+    color: #38B6FF;
 }
